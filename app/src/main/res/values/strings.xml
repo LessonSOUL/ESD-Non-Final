@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ESD</string>
+    <string name="Register">Регистрация</string>
+    <string name="Student">Студент</string>
+    <string name="Employer">Сотрудник</string>
+    <string name="Enter">Вход</string>
+    <string name="Registration">Зарегистрироваться</string>
+    <string name="Screen_Register">Окно Регистрации</string>
+    <string name="Screen_Enter">Экран Входа</string>
+    <string name="Enter_Num">Введите номер</string>
+    <string name="Enter_Pas">Введите пароль</string>
+    <string name="Voz">Вуз</string>
+    <string name="NLS">ФИО</string>
+    <string name="PROF">Должность</string>
+    <string name="Special">Специальность</string>
+    <string name="Group">Группа</string>
+    <string name="Field">Подтвердить</string>
+    <string name="wrong_data">Неверные данные</string>
+    <string name="err_input_login">Введите логин</string>
+    <string name="err_input_pass">Введите пароль</string>
+    <string name="successful_join">Вы успешно вошли</string>
+    <string name="who_are_you">Кто Вы?</string>
+    <string name="start_choose">Кем вы являетесь: </string>
+    <string name="empty_database">Пустая БД</string>
+    <string name="button_profile">Профиль</string>
+    <string name="button_list_documents">Документы</string>
+    <string name="button_list_history">История</string>
+    <string name="button_list_need">Активные</string>
+    <string name="button_setting">Настройки</string>
+    <string name="empty_history">Нету Записей</string>
+    <string name="Num">Номер</string>
+    <string name="Stat">Статус</string>
+    <string name="Image">Картинка</string>
+    <string name="account_button">Настройки аккаунта</string>
+    <string name="app_setting">Настройки приложения</string>
+</resources>

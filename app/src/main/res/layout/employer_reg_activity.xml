@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployerRegActivity">
+
+    <EditText
+        android:id="@+id/NLS"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint = "@string/NLS"
+        android:textColorHint="@color/grey"
+        android:layout_marginBottom="500sp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/VOZ"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint = "@string/Voz"
+        android:textColorHint="@color/grey"
+        android:layout_marginBottom="390sp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/Special"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint = "@string/Special"
+        android:textColorHint="@color/grey"
+        android:layout_marginBottom="280sp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint = "@string/Enter_Num"
+        android:textColorHint="@color/grey"
+        android:layout_marginBottom="170sp"
+        android:inputType="phone"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:hint = "@string/Enter_Pas"
+        android:textColorHint="@color/grey"
+        android:layout_marginBottom="60sp"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:layout_marginTop="250sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
